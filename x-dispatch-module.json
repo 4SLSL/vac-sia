@@ -1,0 +1,24 @@
+{
+  "id": "sia-france",
+  "name": "SIA France Charts (VAC)",
+  "version": "1.0.0",
+  "description": "French VAC/eAIP charts, integrated VAC preview, and OACI map overlays for LF airports",
+  "author": "4SLSL",
+  "minAppVersion": "1.9.1",
+  "kind": "external",
+  "contributions": {
+    "settingsSections": [{ "sectionId": "sia-charts", "tabId": "graphics" }],
+    "airportTabs": [{ "tabId": "vac", "when": { "icaoPrefix": "LF" } }],
+    "toolbarToggles": [
+      { "toggleId": "vac-overlay" },
+      { "toggleId": "oaci-basemap" },
+      { "toggleId": "oaci-vector" }
+    ],
+    "mapHooks": [
+      { "hookId": "vac-overlay" },
+      { "hookId": "oaci-basemap" },
+      { "hookId": "oaci-vector" }
+    ],
+    "protocols": [{ "scheme": "vac-pdf" }]
+  }
+}
