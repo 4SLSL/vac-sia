@@ -2,7 +2,9 @@
 
 Module communautaire pour X-Plane 12 : cartes **VAC** françaises (eAIP SIA), aperçu intégré dans l’app, fond **OACI** (MBTiles + espaces aériens).
 
-Compatible avec [X-Dispatch](https://github.com/lyestarzalt/x-dispatch) **≥ 1.9.1** (fork intégré : [4SLSL/x-dispatch](https://github.com/4SLSL/x-dispatch)).
+Compatible avec [X-Dispatch](https://github.com/lyestarzalt/x-dispatch) **≥ 1.9.2** (fork intégré : [4SLSL/x-dispatch](https://github.com/4SLSL/x-dispatch)).
+
+**v1.1.0** : onglet Réglages dédié, import VAC international (ZIP/dossier), retrait des fonds OACI.
 
 ## Installation
 
