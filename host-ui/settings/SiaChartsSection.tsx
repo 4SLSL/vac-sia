@@ -13,7 +13,7 @@ import {
   useSiaInstallStatusQuery,
   useSiaProductsQuery,
 } from '@/queries/useSiaQuery';
-import { SettingsHeader, SettingsSectionBlock } from '../primitives';
+import { SettingsHeader, SettingsSectionBlock } from '@/components/dialogs/SettingsDialog/primitives';
 
 function formatBytes(n: number): string {
   if (n < 1024 * 1024) return `${Math.round(n / 1024)} KB`;

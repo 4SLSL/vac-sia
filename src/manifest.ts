@@ -3,12 +3,11 @@ import type { XDispatchModuleManifest } from '@/lib/modules/types';
 export const siaFranceManifest: XDispatchModuleManifest = {
   id: 'sia-france',
   name: 'VAC Charts',
-  version: '1.1.1',
+  version: '1.1.2',
   description: 'VAC chart import, integrated preview, and map overlay for aerodromes worldwide',
-  author: '4SLSL community',
-  minAppVersion: '1.9.1',
-  kind: 'bundled',
-  defaultEnabled: false,
+  author: '4SLSL',
+  minAppVersion: '1.9.1a',
+  kind: 'external',
   contributions: {
     settingsTabs: [{ tabId: 'sia-france', labelKey: 'modules.siaFrance.settingsTab' }],
     airportTabs: [{ tabId: 'vac' }],
